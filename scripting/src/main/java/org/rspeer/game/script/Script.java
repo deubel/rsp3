@@ -1,6 +1,5 @@
 package org.rspeer.game.script;
 
-import com.allatori.annotations.DoNotRename;
 import org.rspeer.commons.Configuration;
 import org.rspeer.commons.Executor;
 import org.rspeer.commons.Time;
@@ -70,11 +69,10 @@ public abstract class Script implements Runnable {
         }
     }
 
-    @DoNotRename
     public enum State {
-        @DoNotRename STARTING,
-        @DoNotRename RUNNING,
-        @DoNotRename PAUSED,
-        @DoNotRename STOPPED
+        STARTING,
+        RUNNING,
+        PAUSED,
+        STOPPED
     }
 }
